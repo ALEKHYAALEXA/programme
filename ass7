@@ -1,0 +1,11 @@
+name=input('enter the name:')
+group=input('enter the group:')
+dbms=int(input('enter the marks in dbms:'))
+c=int(input('enter the marks in c:'))
+python=int(input('enter the marks in python:'))
+java=int(input('enter the marks in java:'))
+ds=int(input('enter the marks in ds:'))
+if dbms>=36 and c>=36 and python>=37 and java>=37 and ds>=35:
+    print(name,group,'pass')
+else:
+    print(name,group,'fail')
