@@ -1,0 +1,18 @@
+no = int(input("Enter the number:"))
+name = input("Enter name:")
+group = input("Enter group")
+sub1=int(input("enter marks:"))
+sub2=int(input("enter marks:"))
+sub3=int(input("enter marks:"))
+total=sub1+sub2+sub3
+avg = total/3
+if avg<35:
+    print("Fail")
+elif avg>81:
+    print("A grade")
+elif avg>71:
+    print("B grade")
+elif avg>61:
+    print("C grade")
+elif avg>51:
+    print("D grade")
