@@ -1,0 +1,10 @@
+a=int(input('enter the number'))
+if a%2==1:
+    print('weird')
+elif a%2==0 and 2<=a and a<=5:
+    print('not weird')
+elif a%2==0 and 6<=a and a<=20:
+    print('weird')
+else:
+    print('not weird')
+    
