@@ -1,0 +1,14 @@
+n = int(input("Enter n value:"))
+l=[]
+k=[]
+c=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for j in range(n):
+    if(l[j]>0):
+        k.append(l[j])
+    if(l[j]==0):
+       c=c+1
+print(k)
+print("The count of zeros are:",c)
