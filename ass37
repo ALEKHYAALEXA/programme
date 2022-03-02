@@ -1,0 +1,28 @@
+print("Enter the Row and Column Size of First Matrix: ", end="")
+r1 = int(input())c1 = int(input())
+print("Enter the Row and Column Size of Second Matrix: ", end="")
+r2 = int(input()
+)c2 = int(input())
+if r1==r2 and c1==c2:
+  m1 = [] print("\nEnter", r1*c1, "Elements for First Matrix: ", end="")
+     for i in range(r1):
+       m1.append([]) 
+       for j in range(c1): 
+          n = int(input()) 
+          m1[i].append(n)
+          m2 = [] print("\nEnter", r2*c2, "Elements for Second Matrix: ", end="")
+ for i in range(r2):
+     m2.append([])
+     for j in range(c2):
+        n = int(input()) 
+        m2[i].append(n) 
+        m3 = []
+ for i in range(r1): 
+     m3.append([]) 
+     for j in range(c2):
+         s = m1[i][j] - m2[i][j] m3[i].append(s) 
+         print("\nSubtraction Result:") 
+  for i in range(r1): 
+      for j in range(c1): 
+          print(m3[i][j], end=" ")
+  print()else: print("\nOrder Mismatched!")
