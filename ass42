@@ -1,0 +1,7 @@
+t=(1,'hello',00,'jinglebells')
+t2=('ok',2,'jinglealltheways',11)
+print("Before merging:")
+print(t)
+print(t2)
+print("After merging:")
+print(t+t2)
